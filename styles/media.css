@@ -1,0 +1,42 @@
+@media (max-width: 1230px) {
+    .container {
+        width: 90%;
+      }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: inline-block;
+    }
+}
+@media (max-width: 1230px) {
+    .card-container {
+        justify-content:  space-around;
+    }
+}
+@media (max-width: 645px) {
+    .container_sec-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 650px)
+{
+    .main_image h1 {
+        font-size: 60px;
+    }
+   
+}
+@media (max-width: 490px) {
+    .main_image h1 {
+        font-size: 50px;
+    }
+    .main_image h5 {
+        font-size: 15px;
+    }
+}
